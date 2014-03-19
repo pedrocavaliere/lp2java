@@ -4,4 +4,4 @@
 *.jar
 *.war
 *.ear
-*DS_Store
+.DS_Store
