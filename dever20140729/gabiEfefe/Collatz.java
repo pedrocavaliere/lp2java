@@ -15,17 +15,6 @@ class Collatz{
 		}
 
 		return seq;
-	   //  int tamanho;
-	  	// int[] vetor = new int[1000001];
-	  	// int i;
-	  	// for (i = 0; i < 1000001; i++) {
-	   //  	if(a % 2 == 0){
-	   //  		vetor[i] = a/2;
-	   //  	}
-	   //  	if(a % 2 != 0){
-	   //  		vetor[i] = (3*a) + 1;
-	   //  	}
-	   //  }
 	}
 
 	public int maior(int a){
