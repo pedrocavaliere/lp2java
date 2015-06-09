@@ -10,7 +10,18 @@ public class SimpleDotCom {
     }
     
     public String checkYourself(String stringGuess) {
-        int guess = Integer.parseInt(stringGuess);
+
+        int guess = -1;
+
+         try {
+
+            int guess = Integer.parseInt(stringGuess);
+
+         } catch (Exception e) {
+           System.out.println("Erro no numero, use um inteiro");
+           return "miss";
+        }
+
         String result = "miss";
         for (int cell: locationCells)
         {
