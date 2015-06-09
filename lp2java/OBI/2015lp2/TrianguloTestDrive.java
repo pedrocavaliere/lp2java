@@ -1,27 +1,24 @@
+import java.util.Scanner;
+
+
 class TrianguloTestDrive{
   public static void main(String[] args) {
     Triangulo t = new Triangulo();
-      t.setG(6,9,22,5);
-      System.out.println(t.checarTriangulo());
+    int x1;
+    int x2;
+    int x3;
+    int x4;
 
-      t.setG(14,40,12,60);
-      System.out.println(t.checarTriangulo());
+    Scanner sc = new Scanner(System.in);
+    x1 = sc.nextInt();
+    x2 = sc.nextInt();
+    x3 = sc.nextInt();
+    x4 = sc.nextInt();
 
-      t.setG(6,9,5,100);
-      System.out.println(t.checarTriangulo());
-
-      t.setG(41,98,38,51);
-      System.out.println(t.checarTriangulo());
-
-      t.setG(59,8,40,1);
-      System.out.println(t.checarTriangulo());
+    t.setG(x1, x2, x3, x4);
+    System.out.println(t.checarTriangulo());
 
 
-// 6 9 22 5
-// 14 40 12 60
-// 6 9 5 100
-// 41 98 38 51
-// 59 8 40 1
 
 
    } 

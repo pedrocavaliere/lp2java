@@ -11,19 +11,19 @@ class Triangulo {
     this.g4 = d;
   }
 
-  boolean checarTriangulo(){
+  String checarTriangulo(){
     if (g3< g1+g2 & g2< g1+g3 & g1<g2+g3){
-      return true;
+      return "S";
     }
     else if(g4<g3+g2 & g3<g4+g2 & g2<g3+g4){
-      return true;
+      return "S";
     }
     else if(g4<g2+g1 & g2<g4+g1 & g1<g4+g2){
-      return true;
+      return "S";
     }
     else if(g4<g3+g1 & g3<g4+g1 & g1<g4+g3){
-      return true;
+      return "S";
     }
-    return false;
+    return "N";
   }
 }
